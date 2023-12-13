@@ -139,13 +139,15 @@ tribble(
 
 \footnotesize
 
+- **Rowan, S.**, Memarsadeghi, N., Sisco, A., Tavakoly, A. An Assessment of the Socio-Economic Impacts from Climate Change and its Relationship with Vulnerability. *AGU23; December 2023; San Fransisco, CA.* Oral Presentation.
+
 - **Rowan, S.**, Yeates, E., Mo, W. Estimating the Greenhouse Gas Emissions of Flood Damages. *AEESP Research & Education Conference; June 2023; Boston, MA.* Poster.
 
 - **Rowan, S.**, Yeates, E. Predicting the Mental Health Impacts of Floods. *47th Annual Natural Hazards Research and Applications Workshop; July 2022; Virtual.* Poster.
 
 - **Rowan, S.**, Kwiatkowski, K. Assessing the Relationship Between Social Vulnerability, Social Capital, and Housing Resilience. *46th Annual Natural Hazards Research and Applications Workshop; July 2020; Virtual.* Poster.
 
-- **Rowan, S.**, Kwiatkowski, K., Qiao, Y. Resilient Bridge Planning in Mozambique: Bridge Failure Risk from Flooding and Climate Change. *2nd International Conference on Transportation System Resilience to Natural Hazards and Extreme Weather Events (TR2019); November 2019; Washington, D.C.* Presentation.
+- **Rowan, S.**, Kwiatkowski, K., Qiao, Y. Resilient Bridge Planning in Mozambique: Bridge Failure Risk from Flooding and Climate Change. *2nd International Conference on Transportation System Resilience to Natural Hazards and Extreme Weather Events (TR2019); November 2019; Washington, D.C.* Oral Presentation.
 
 \normalsize
 
