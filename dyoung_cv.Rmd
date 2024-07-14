@@ -1,0 +1,122 @@
+---
+name: Dominic
+surname: Young
+position: "Automotive Finance Manager/Sales Consultant"
+address: "Gorham, NH"
+email: "dominicyoung2015@gmail.com"
+researchgate: false
+orcid: false
+aboutme: |
+  Motivated salesman with 8+ years of sales experience in both cellular and automotive sales with a promotion to  Finance Manager. Eager to leverage comprehensive, detail oriented experience with a proven track record to drive sales and financial success to a leading dealership.
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "2698ba"
+output:
+  srvitae::sr_awesomecv:
+    keep_tex: true
+  engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(srvitae)
+library(tibble)
+library(fontawesome)
+```
+
+<!-- Alternative education icon
+\hypertarget{education}{%
+\section{\faUniversity~Education}\label{education}}
+-->
+
+\hypertarget{experience}{%
+\section{\faBriefcase~Experience}\label{experience}}
+
+```{r Experience}
+tribble(
+  ~role, ~institution, ~location, ~dates, ~details,
+  "Finance Manager", "Nucar", "Gorham, NH", "Sep. 2023 - Present", list(
+    "Adept at analyzing customer credit profiles, negotiating financing terms, and ensuring compliance.",
+    "Skilled in building relationships, providing exceptional customer service, and maximizing profitability.",
+    "Proficient in finance software and staying updated on industry trends."
+  ),
+  "Sales Consultant", "Nucar", "Gorham, NH", "2021 - Present", list(
+    "Engage with customers to understand their automotive needs and preferences.",
+    "Negotiate sales terms, including price, financing rates, and additional product offerings.",
+    "Provide exceptional customer service before, during, and after the sale to build long-term relationships and encourage referrals.",
+    "Proficient use of auto dealer software such as CDK, DriveCentric, Vauto, and Vision Menu."
+  ),
+  "Activities Supervisor", "Mountain View Grand Resort & Spa", "Whitefield, NH", "2020 - 2021", list(
+    "Delegating tasks to employees to efficiently run all resort activities.", 
+    "Create, plan, and implement fun and creative activities and events.",
+    "Interact with guests in a fun and friendly manner to build memorable experiences for guests."
+  ),
+  "Wireless Sales Consultant", "Wireless Zone - Verizon Wireless Premium Retailer", "Littleton, NH", "2018 - 2020", list(
+    "Engage with customers to understand their needs and recommend appropriate products and services.",
+    "Meet or exceed sales targets and key performance indicators (KPIs) on a consistent basis.",
+    "Build rapport with customers to foster long-term relationships and encourage repeat business.",
+    "Provide outstanding customer service before, during, and after the sale to enhance customer satisfaction and loyalty."
+  ),
+  "Wireless Sales Consultant", "GoWireless - Verizon Wireless Premium Retailer", "Newington, NH", "2016 - 2017", list(
+    "Engage with customers to understand their needs and recommend appropriate products and services.",
+    "Meet or exceed sales targets and key performance indicators (KPIs) on a consistent basis.",
+    "Build rapport with customers to foster long-term relationships and encourage repeat business.",
+    "Provide outstanding customer service before, during, and after the sale to enhance customer satisfaction and loyalty."
+  )
+) %>%
+  detailed_entries(
+    what = role,
+    when = dates,
+    with = institution,
+    where = location,
+    why = details
+  )
+```
+
+\hypertarget{education}{%
+\section{\faMortarBoard~Education}\label{education}}
+
+
+```{r Education}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where, ~details,
+  "High School Diploma", "2015", "Colebrook Academy", "Colebrook, New Hampshire", list(),
+) %>%
+  detailed_entries(
+    what = Degree,
+    when = Year,
+    with = Institution,
+    where = Where,
+    why = details
+  )
+```
+
+\hypertarget{certifications}{%
+\section{\faUser~Certifications}\label{certifications}}
+
+```{r Certifications}
+tribble(
+  ~project, ~stage, ~description,
+  "Automotive Finance Compliance", "December 2023", list(),
+  "Driver's License - New Hampshire", "Active", list()
+) %>%
+  detailed_entries(
+    what = project,
+    when = stage,
+    why = description
+  )
+```
+
+
+\hypertarget{skills}{%
+\section{\faFileText~Skills}\label{skills}}
+
+\footnotesize
+
+- Customer Service (10+ years)
+- Sales (9 years)
+- Inventory Control (4+ years)
+- Microsoft Excel (3+ years)
+
+\normalsize
+
+

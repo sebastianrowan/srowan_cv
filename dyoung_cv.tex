@@ -1,0 +1,201 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{sr-awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{2698ba}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Dominic}{Young}
+
+\position{Automotive Finance Manager/Sales Consultant}
+\address{Gorham, NH}
+
+\email{\href{mailto:dominicyoung2015@gmail.com}{\nolinkurl{dominicyoung2015@gmail.com}}}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{Motivated salesman with 8+ years of sales experience in both
+cellular and automotive sales with a promotion to Finance Manager. Eager
+to leverage comprehensive, detail oriented experience with a proven
+track record to drive sales and financial success to a leading
+dealership.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {May 2024}
+    {Dominic Young~~~·~~~Resume}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{experience}{%
+\section{\faBriefcase~Experience}\label{experience}}
+
+\begin{cventries}
+    \cventry{Finance Manager}{Nucar}{Gorham, NH}{Sep. 2023 - Present}{\begin{cvitems}
+\item Adept at analyzing customer credit profiles, negotiating financing terms, and ensuring compliance.
+\item Skilled in building relationships, providing exceptional customer service, and maximizing profitability.
+\item Proficient in finance software and staying updated on industry trends.
+\end{cvitems}}
+    \cventry{Sales Consultant}{Nucar}{Gorham, NH}{2021 - Present}{\begin{cvitems}
+\item Engage with customers to understand their automotive needs and preferences.
+\item Negotiate sales terms, including price, financing rates, and additional product offerings.
+\item Provide exceptional customer service before, during, and after the sale to build long-term relationships and encourage referrals.
+\item Proficient use of auto dealer software such as CDK, DriveCentric, Vauto, and Vision Menu.
+\end{cvitems}}
+    \cventry{Activities Supervisor}{Mountain View Grand Resort \& Spa}{Whitefield, NH}{2020 - 2021}{\begin{cvitems}
+\item Delegating tasks to employees to efficiently run all resort activities.
+\item Create, plan, and implement fun and creative activities and events.
+\item Interact with guests in a fun and friendly manner to build memorable experiences for guests.
+\end{cvitems}}
+    \cventry{Wireless Sales Consultant}{Wireless Zone - Verizon Wireless Premium Retailer}{Littleton, NH}{2018 - 2020}{\begin{cvitems}
+\item Engage with customers to understand their needs and recommend appropriate products and services.
+\item Meet or exceed sales targets and key performance indicators (KPIs) on a consistent basis.
+\item Build rapport with customers to foster long-term relationships and encourage repeat business.
+\item Provide outstanding customer service before, during, and after the sale to enhance customer satisfaction and loyalty.
+\end{cvitems}}
+    \cventry{Wireless Sales Consultant}{GoWireless - Verizon Wireless Premium Retailer}{Newington, NH}{2016 - 2017}{\begin{cvitems}
+\item Engage with customers to understand their needs and recommend appropriate products and services.
+\item Meet or exceed sales targets and key performance indicators (KPIs) on a consistent basis.
+\item Build rapport with customers to foster long-term relationships and encourage repeat business.
+\item Provide outstanding customer service before, during, and after the sale to enhance customer satisfaction and loyalty.
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{education}{%
+\section{\faMortarBoard~Education}\label{education}}
+
+\begin{cventries}
+    \cventry{High School Diploma}{Colebrook Academy}{Colebrook, New Hampshire}{2015}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{certifications}{%
+\section{\faUser~Certifications}\label{certifications}}
+
+\begin{cventries}
+    \cventry{Automotive Finance Compliance}{}{}{December 2023}{}\vspace{-4.0mm}
+    \cventry{Driver's License - New Hampshire}{}{}{Active}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{skills}{%
+\section{\faFileText~Skills}\label{skills}}
+
+\footnotesize
+
+\begin{itemize}
+\tightlist
+\item
+  Customer Service (10+ years)
+\item
+  Sales (9 years)
+\item
+  Inventory Control (4+ years)
+\item
+  Microsoft Excel (3+ years)
+\end{itemize}
+
+\normalsize
+
+
+
+\end{document}
